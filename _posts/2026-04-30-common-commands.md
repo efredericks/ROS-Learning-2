@@ -17,6 +17,8 @@ This section is intentionally at the top to keep track of all the "common comman
 |------|------|
 | `distrobox enter <x>` | Enter a particular operating system using distrobox, e.g., `distrobox enter humble` |
 | `distrobox install <x>` | Install a specific operating system using distrobox |
+| `distrobox exit` | Exit out of distrobox |
+| `distrobox list` | List out installed environments for distrobox |
 
 ## Interaction commands
 
@@ -30,3 +32,18 @@ Get info from log
 
 
 
+
+
+<!-- 
+> This is a neutral information block.
+{: .prompt-info }
+
+> This is a helpful tip or recommendation.
+{: .prompt-tip }
+
+> This is a warning to alert users about potential issues.
+{: .prompt-warning }
+
+> This is a critical alert for dangerous actions.
+{: .prompt-danger } 
+-->
