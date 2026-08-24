@@ -25,6 +25,8 @@ Fortunately, the Create 3 is already setup to receive ROS messages.  Refer to th
 
 ### bitcraze CrazyFlie 2.1
 
+If you recall from the `CrazySwarm` setup, the firmware used for the simulator is **not intended** for use with the physical robot.  You'll need to build a new firmware, though the software we've developed so far should work fine.
+
 TBD
 
 ## Application Deployment
