@@ -10,3 +10,19 @@ This is an uncategorized list of updates throughout the course of my F2026 -- W2
     * [Robotics and Electronics: From Beginner to Expert](https://www.humblebundle.com/books/robotics-and-electronics-from-beginner-to-expert-apress-books)
 
 * Spent more time than necessary tweaking a kenney.nl asset for a logo in Blender.
+
+## Sabbatical Milestones
+
+1. Learn ROS
+
+2. Develop a ROS tutorial for my students (this website)
+
+3. Develop software engineering focused research project
+
+- Create repository
+- Share LaTeX
+
+4. Write research proposal surrounding software engineering and robotics
+
+- Share proposal draft
+
