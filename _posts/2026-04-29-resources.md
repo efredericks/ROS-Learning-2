@@ -21,6 +21,9 @@ This section lists out all the resources used to help build this website and tut
           * `catkin` used to build everything - we use `colcon`
           * `rosrun` used to launch packages - we use `ros2 run`
 
+* [Tufts University - Create 3 Examples](https://github.com/tuftsceeo/Tufts_Create3_Examples/)
+
+* [Tansel Yucelen - Robot Control Series](https://www.tanselyucelen.com/teaching)
 
 * [All other materials used to help build the course (some paywalled)](../../about/)
 

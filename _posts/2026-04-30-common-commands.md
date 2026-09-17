@@ -18,7 +18,7 @@ This section is intentionally at the top to keep track of all the "common comman
 | `distrobox enter <x>` | Enter a particular operating system using distrobox, e.g., `distrobox enter humble` |
 | `distrobox install <x>` | Install a specific operating system using distrobox, e.g., `distrobox create --image ubuntu:22.04 --name humble --nvidia` |
 | `distrobox exit` | Exit out of distrobox |
-| `distrobox list` | List out installed environments for distrobox |
+| `distrobox list` (or `distrobox ls`) | List out installed environments for distrobox |
 | `distrobox stop <x>` | Stop the container from consuming resources, e.g., `distrobox stop humble` |
 
 ## Interaction commands
