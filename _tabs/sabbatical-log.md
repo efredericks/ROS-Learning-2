@@ -8,8 +8,11 @@ This is an uncategorized list of updates throughout the course of my F2026 -- W2
 * August 2026: purchased Humble Bundle eBooks to read while in Germany.  Intended mainly as a quickstart for ROS and ArduPilot, though there is a treasure trove of other topics (maker-related for CIS373, robotics and AI, etc.).
 
     * [Robotics and Electronics: From Beginner to Expert](https://www.humblebundle.com/books/robotics-and-electronics-from-beginner-to-expert-apress-books)
+        *  Unfortunately not going to be overly helpful.  Lots of focus on catkin and ROS1 terminologies so far.  Some processes translate but not many.
 
 * Spent more time than necessary tweaking a kenney.nl asset for a logo in Blender.
+
+* Transition from graphical to headless (for logging) is taking longer than expected.  This is what students typically run into though, so good to have a written guide.
 
 ## Sabbatical Milestones
 
