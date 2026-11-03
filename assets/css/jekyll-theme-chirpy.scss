@@ -3,9 +3,7 @@
 
 @use "main";
 
-/* custom css */
-
-/* avoid copy/pasting the diff markers */
+/* diff markers: drawn in the margin so they aren't copied */
 .language-diff {
   .gi,
   .gd {
@@ -16,19 +14,24 @@
   .gd::before {
     content: attr(data-marker);
     position: absolute;
-    left: -1.1rem;   /* adjust to sit just right of the line numbers */
+    left: -1.1rem;
     font-weight: bold;
   }
 
   .gi { background-color: rgba(46, 160, 67, 0.25); }
   .gd { background-color: rgba(248, 81, 73, 0.25); }
-
   .gi::before { color: #2ea043; }
   .gd::before { color: #f85149; }
 }
 
-.language-diff .gi {
-//   display: inline-block;
-//   width: 100%;
-  background-color: rgba(46, 160, 67, 0.25);
+p.code-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p.code-caption,
+p.code-caption em {
+  color: var(--text-muted-color);
 }
