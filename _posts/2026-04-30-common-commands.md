@@ -20,6 +20,14 @@ This section is intentionally at the top to keep track of all the "common comman
 | `distrobox exit` | Exit out of distrobox |
 | `distrobox list` (or `distrobox ls`) | List out installed environments for distrobox |
 | `distrobox stop <x>` | Stop the container from consuming resources, e.g., `distrobox stop humble` |
+| `source install/local_setup.bash` | Loads the local resources for the current project into the shell (assuming you're in the root of the workspace, e.g., `~/distrobox/jazzy/create3_ws`) | 
+
+## Build Commands
+
+|||
+|------|------|
+| `rosdep install --from-path src -yi` | Install dependencies for ROS project |
+| `colcon build --symlink-install` | Build workspace after changes (don't forget to `source` the `local_setup.bash` file again!) |
 
 ## Interaction commands
 

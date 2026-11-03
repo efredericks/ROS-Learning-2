@@ -1,0 +1,34 @@
+---
+---
+
+@use "main";
+
+/* custom css */
+
+/* avoid copy/pasting the diff markers */
+.language-diff {
+  .gi,
+  .gd {
+    position: relative;
+  }
+
+  .gi::before,
+  .gd::before {
+    content: attr(data-marker);
+    position: absolute;
+    left: -1.1rem;   /* adjust to sit just right of the line numbers */
+    font-weight: bold;
+  }
+
+  .gi { background-color: rgba(46, 160, 67, 0.25); }
+  .gd { background-color: rgba(248, 81, 73, 0.25); }
+
+  .gi::before { color: #2ea043; }
+  .gd::before { color: #f85149; }
+}
+
+.language-diff .gi {
+//   display: inline-block;
+//   width: 100%;
+  background-color: rgba(46, 160, 67, 0.25);
+}

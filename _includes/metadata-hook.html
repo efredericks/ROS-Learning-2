@@ -1,0 +1,29 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.language-diff .gi, .language-diff .gd').forEach(function (span) {
+      var cls = span.className;
+      var parts = span.textContent.split('\n');
+      var frag = document.createDocumentFragment();
+
+      parts.forEach(function (part, i) {
+        var isLast = i === parts.length - 1;
+        if (part === '' && isLast) return; // trailing newline, nothing after it
+
+        var line = document.createElement('span');
+        line.className = cls;
+        line.setAttribute('data-marker', part.charAt(0));
+        line.textContent = part.slice(1) + (isLast ? '' : '\n');
+        frag.appendChild(line);
+      });
+
+      span.replaceWith(frag);
+    });
+  });
+
+  /* rename diff to python */
+  // window.addEventListener('load', function () {
+    // document.querySelectorAll('.language-diff [data-label-text]').forEach(function (label) {
+      // label.setAttribute('data-label-text', 'python');
+    // });
+  // });
+</script>
