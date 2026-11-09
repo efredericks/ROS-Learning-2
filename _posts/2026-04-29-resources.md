@@ -25,7 +25,11 @@ This section lists out all the resources used to help build this website and tut
 
 * [Tansel Yucelen - Robot Control Series](https://www.tanselyucelen.com/teaching)
 
+* [UAV Perception Testing Track (UAV ROS pre-packaged environment)](https://github.com/IDeaLS-Lab/uav-testing-track-2027)
+
 * [All other materials used to help build the course (some paywalled)](../../about/)
+
+* Some of the trickier coding bits were LLM-supported.  No written verbiage or visual assets used AI.
 
 
 
